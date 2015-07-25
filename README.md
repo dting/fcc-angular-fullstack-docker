@@ -114,7 +114,7 @@ After the config is edited and the installs are complete, `grunt` should run wit
 
     docker-compose up
     
-Open your browser on the host machine to `localhost:9000` (`boot2docker ip`:9000 or http://192.168.10.10:9000/ if using boot2docker-vagrant) and the welcome page for angular-fullstack should appear. Any changes to the files should trigger the live reload.
+Open your browser on the host machine to `localhost:9000` (`boot2docker ip`:9000 for boot2docker or http://192.168.10.10:9000/ for boot2docker-vagrant) and the welcome page for angular-fullstack should appear. Any changes to the files should trigger the live reload.
 
 In another tab navigate back to the project dir (and if needed vagrant ssh). Use the following command to get a bash prompt:
 
