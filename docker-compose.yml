@@ -1,0 +1,16 @@
+web:
+  build: .
+  ports:
+    - "9000:9000"
+    - "35729:35729"
+  volumes:
+    - .:/app
+  links:
+    - db
+  environment:
+    NODE_ENV: development
+
+db:
+  image: mongo:latest
+  ports:
+    - "27017:27017"
